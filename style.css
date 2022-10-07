@@ -121,3 +121,27 @@ button {
     font-size: 20px;
     text-align: right;
 }
+
+.CTA {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    margin: 64px 256px;
+    padding: 32px 72px;
+    border-radius: 8px;
+}
+
+.CTA .hero {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.CTA .secondary {
+    margin-top: 0px;
+}
+
+.CTA button {
+    border: 2px solid white;
+    align-self: center;
+}
